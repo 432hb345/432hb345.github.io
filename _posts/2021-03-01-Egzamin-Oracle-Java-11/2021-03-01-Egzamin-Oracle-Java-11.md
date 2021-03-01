@@ -3,17 +3,11 @@ layout: post
 title: Egzamin 1z0-819 - początek
 date: '2020-01-29 01:00 +0700'
 modified: 2020-02-02 16:49:47 +07:00
-
 description: xd
----
-  Ada dua cara untuk memperbarui forked repository menggunakan web interface
-  yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet
-  lagi.
 tag:
   - tips
   - git
   - software
-image: /cara-memperbarui-fork-repository/repo.png
 published: true
 ---
 Hej!
