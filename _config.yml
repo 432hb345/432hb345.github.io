@@ -10,7 +10,7 @@ mode: light # default theme "dark" | "light"
 # Profile settings
 author:
   name: Reevee # author name
-  bio: nauka, programowanie, inwestowanie, robienie rzeczy
+  bio: zapiski z budowy aplikacji, zbierania wiedzy, programowania, robienia rzeczy
   username: Reevee # general username
   github: 432hb345 # github username
   twitter: twitter_username # twitter username
