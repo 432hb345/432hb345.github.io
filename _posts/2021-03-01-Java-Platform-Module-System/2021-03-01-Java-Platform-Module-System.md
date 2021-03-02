@@ -1,7 +1,7 @@
 ---
 title: Java Platform Module System
-date: 2020-01-25T04:58:47.000Z
-modified: 2020-02-02T09:49:47.000Z
+date: {}
+modified: {}
 tags:
   - java
   - modules
@@ -9,11 +9,10 @@ description: java platform module system
 image: /apa-itu-shell/shell_evolution.png
 published: true
 ---
-
-<sds
-##### Notes
-
-<small id="user-ref"><sup>[[1]](#user)</sup> Manusia yang mengoperasikan dan mengendalikan sistem komputer.</small>
+Do Javy 9, najwyższym elementem organizującym była paczka.
+Od Javy 9 nad paczką jest teraz moduł.
+JPMS - Java Platform Module System dodaje plik module-info.java.
+[work in progress]
 
 ##### Resources
 
