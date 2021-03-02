@@ -9,14 +9,7 @@ excerpt: >-
 comments: false
 published: true
 ---
----
-title: Reevee
-permalink: /about/
-layout: page
-excerpt: Hej, tu Reevee!
-comments: false
-published: true
----
+
 
 Ciekawi mnie: programowanie, optymalizacja/automatyzacja, ekonomia, neurofarmakologia, psychologia, psychometria, statystyka, etyka, psychodietetyka, grafika komputerowa, rysowanie, medycyna estetyczna, kosmetyki, kruszce, krypto, biohacking
 
