@@ -2,12 +2,12 @@
 layout: post
 title: Egzamin 1z0-819 - początek
 date: '2020-01-29 01:00 +0700'
-modified: {}
-description: xd
+modified: 2020-02-02T09:49:47.000Z
+description: java 11 oracle certificate
 tag:
-  - tips
-  - git
-  - software
+  - java 11
+  - oracle
+  - certificate
 published: true
 ---
 Hej!
