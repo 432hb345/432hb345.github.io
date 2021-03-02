@@ -1,7 +1,7 @@
 ---
 title: Java Platform Module System
-date: {}
-modified: {}
+date: '2021-03-02T14:20:56+0000'
+modified: '2021-03-02T14:20:56+0000'
 tags:
   - java
   - modules
@@ -11,7 +11,11 @@ published: true
 ---
 Do Javy 9, najwyższym elementem organizującym była paczka.
 Od Javy 9 nad paczką jest teraz moduł.
-JPMS - Java Platform Module System dodaje plik module-info.java.
+JPMS - Java Platform Module System dodaje plik module-info.java. 
+Wcześniej monolityczne JDK, zostało podzielone na 90 modułów, np Logging, Swing, Instrumentation.
+
+java --list-modules
+
 [work in progress]
 
 ##### Resources
