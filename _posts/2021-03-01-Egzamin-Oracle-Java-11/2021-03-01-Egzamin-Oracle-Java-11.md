@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Egzamin 1z0-819 - początek
-date: '2020-01-29 01:00 +0700'
-modified: {}
+date: '2021-03-02T14:20:56+0000'
+modified: '2021-03-02T14:20:56+0000'
 description: java 11 oracle certificate
 tag:
   - java 11
