@@ -19,7 +19,8 @@ Module-info.java zawiera: nazwę, dependencies, paczki publiczne, serwisy konsum
 
 Przykład module descriptora:
 
-`module java.sql {
+```java
+module java.sql {
     requires transitive java.logging;
     requires transitive java.transaction.xa;
     requires transitive java.xml;
@@ -27,5 +28,6 @@ Przykład module descriptora:
     exports javax.sql;
 
     uses java.sql.Driver;
-}`
+}
+```
 
