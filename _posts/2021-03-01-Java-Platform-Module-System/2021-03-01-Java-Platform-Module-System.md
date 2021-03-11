@@ -15,6 +15,18 @@ Od Javy 9 nad paczką jest teraz moduł.
 
 Moduł jest agregatorem z unikalną nazwą, obejmuje reużywalną grupę powiązanych packages, resources i module descriptor.
 Modułu dostarczane są w plikach JAR z packages i module descriptorem w postaci pliku module-info.java.
+Module-info.java zawiera: nazwę, dependencies, paczki publiczne, serwisy konsumowane i oferowane, uprawnienia refleksji.
 
+Przykład module descriptora:
 
+`module java.sql {
+    requires transitive java.logging;
+    requires transitive java.transaction.xa;
+    requires transitive java.xml;
+
+    exports java.sql;
+    exports javax.sql;
+
+    uses java.sql.Driver;
+}`
 
