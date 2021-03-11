@@ -9,11 +9,11 @@ description: java platform module system
 image: /apa-itu-shell/shell_evolution.png
 published: true
 ---
-Do Javy 9, najwyższym elementem organizującym była paczka.
+**Do Javy 9** najwyższym elementem organizującym była paczka.
 Wcześniej monolityczne JDK, zostało podzielone na 90 modułów, np Logging, Swing, Instrumentation.
 Od Javy 9 nad paczką jest teraz moduł.
 
-+ Moduł jest agregatorem z unikalną nazwą, obejmuje reużywalną grupę powiązanych packages, resources i module descriptor.
++ **Moduł jest agregatorem z unikalną nazwą**, obejmuje reużywalną grupę powiązanych packages, resources i module descriptor.
 Modułu dostarczane są w plikach JAR z packages i module descriptorem w postaci pliku module-info.java.
 + Module-info.java zawiera: nazwę, dependencies, paczki publiczne, serwisy konsumowane i oferowane, uprawnienia refleksji.
 
@@ -52,8 +52,25 @@ module jdk.javadoc {
 }
 ```
 
-+ _requires_ oznacza moduły, na których obecny moduł polega,
-+ _requires transitive_ oznacza dependencję przechodnią: jeżeli moduł m1 tranzytywnie zależy od modułu m2, a posiadamy trzeci moduł mX który zależy na m1, wtedy moduł mX także będzie miał dostęp do modułu m2;
-+ _requires static_ specyfikuje zależności compile-time-only,
-+ _exports_ specyfikuje paczki modułu które powinny być dostępne dla innych modułów (nie uwzględniając sub-packages),
-+ _exports…to…_ umożliwia ograniczenie dostępu: export *com.my.package.name* do *com.specific.package*;
++ **_requires_** oznacza moduły, na których obecny moduł polega,
++ **_requires transitive_** oznacza dependencję przechodnią: jeżeli moduł **m1** tranzytywnie zależy od modułu **m2**, a posiadamy trzeci moduł **mX** który zależy na **m1**, wtedy moduł **mX** także będzie miał dostęp do modułu **m2**;
++ **_requires static_** specyfikuje zależności compile-time-only,
++ **_exports_** specyfikuje paczki modułu które powinny być dostępne dla innych modułów (nie uwzględniając sub-packages),
++ **_exports…to…_** umożliwia ograniczenie dostępu: export *com.my.package.name* do *com.specific.package* - możemy umożliwić dostęp do paczki naszego modułu tylko dla wybranych innych paczek innego modułu;
+
++ użytkownik **określa serwisy** używane przez moduł:
+
+```java
+uses java.sql.Driver;
+```
+
+W tym wypadku określamy interfejs użytego serwisu.
+
++ **provides** specyfikuje serwisy dostarczane przez moduł:
+
+```java
+provides javax.tools.Tool with
+    jdk.javadoc.internal.api.JavadocTool;
+```
+
+Najpierw dodajemy interfejs - _javax.tools.Tool_, a po_ with_ - implementację.
