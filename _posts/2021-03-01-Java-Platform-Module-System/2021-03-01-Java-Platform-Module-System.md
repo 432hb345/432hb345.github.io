@@ -73,4 +73,4 @@ provides javax.tools.Tool with
     jdk.javadoc.internal.api.JavadocTool;
 ```
 
-Najpierw dodajemy interfejs - _javax.tools.Tool_, a po_ with_ - implementację.
+Najpierw dodajemy interfejs - _javax.tools.Tool_, a po _with_ - implementację.
