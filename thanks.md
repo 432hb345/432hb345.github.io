@@ -7,7 +7,7 @@ excerpt: >-
   connecting me with another good person, giving some advice when i'm at a bad
   things, pulling me from ordinary to be great.
 comments: false
-published: true
+published: false
 ---
 
 <hr>

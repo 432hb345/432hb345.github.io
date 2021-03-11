@@ -1,4 +1,4 @@
-# Become a contributor
+ Become a contributor
 - Fork
 - Create new branch, representing the changes
 - Make changes, ensure it's working
