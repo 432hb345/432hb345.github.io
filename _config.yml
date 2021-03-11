@@ -4,17 +4,13 @@ description: Dokumentuję rzeczy, których się uczę
 lang: pl-PL # default lang
 timezone: Europe/Warsaw # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
-mode: light # default theme "dark" | "light"
+mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
   name: Reevee # author name
   bio: zapiski z budowy aplikacji, zbierania wiedzy, programowania, robienia rzeczy
   username: Reevee # general username
-  github: 432hb345 # github username
-  twitter: twitter_username # twitter username
-  facebook: facebook_username # facebook username
   email: your-email@email.com # email adress
   avatar: /assets/img/avatar.png # change with your own avatar
 
